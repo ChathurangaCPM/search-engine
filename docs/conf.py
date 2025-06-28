@@ -90,8 +90,8 @@ def setup(app):
 extlinks = {}
 
 # upstream links
-extlinks['wiki'] = ('https://github.com/searxng/searxng/wiki/%s', ' %s')
-extlinks['pull'] = ('https://github.com/searxng/searxng/pull/%s', 'PR %s')
+extlinks['wiki'] = ('https://github.com/ChathurangaCPM/search-engine/wiki/%s', ' %s')
+extlinks['pull'] = ('https://github.com/ChathurangaCPM/search-engine/pull/%s', 'PR %s')
 extlinks['pull-searx'] = ('https://github.com/searx/searx/pull/%s', 'PR %s')
 
 # links to custom brand

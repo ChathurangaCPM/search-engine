@@ -194,7 +194,7 @@ def fetch_traits(engine_traits: EngineTraits) -> None:
                 yield [cell0, cell1]
 
     # pylint: disable=import-outside-toplevel
-    # see https://github.com/searxng/searxng/issues/762
+    # see https://github.com/ChathurangaCPM/search-engine/issues/762
     from searx.network import get as http_get
 
     # pylint: enable=import-outside-toplevel

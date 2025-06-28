@@ -184,7 +184,7 @@ def response(resp) -> EngineResults:
             if isinstance(description, list):
                 message = ','.join(description)
 
-        # see https://github.com/searxng/searxng/pull/1456#issuecomment-1193105023
+        # see https://github.com/ChathurangaCPM/search-engine/pull/1456#issuecomment-1193105023
         # results.add(results.types.Answer(answer=message))
         logger.info(message)
         return results

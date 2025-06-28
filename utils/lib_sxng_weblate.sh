@@ -17,11 +17,11 @@ weblate.translations.worktree() {
     # 'translations' from Weblate's counterpart (weblate) of the SearXNG
     # (origin).
     #
-    #     remote weblate https://translate.codeberg.org/git/searxng/searxng/
+    #     remote weblate https://translate.codeberg.org/git/ChathurangaCPM/search-engine/
 
     (   set -e
         if ! git remote get-url weblate 2> /dev/null; then
-            git remote add weblate https://translate.codeberg.org/git/searxng/searxng/
+            git remote add weblate https://translate.codeberg.org/git/ChathurangaCPM/search-engine/
         fi
         if [ -d "${TRANSLATIONS_WORKTREE}" ]; then
             pushd .

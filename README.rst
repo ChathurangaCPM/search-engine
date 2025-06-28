@@ -2,7 +2,7 @@
 
 ----
 
-.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng.svg
+.. figure:: https://raw.githubusercontent.com/ChathurangaCPM/search-engine/master/client/simple/src/brand/searxng.svg
    :target: https://docs.searxng.org/
    :alt: SearXNG
    :width: 100%
@@ -34,7 +34,7 @@ A user_, admin_ and developer_ handbook is available on the homepage_.
 .. _homepage: https://docs.searxng.org/
 .. _metasearch engine: https://en.wikipedia.org/wiki/Metasearch_engine
 
-.. |SearXNG logo| image:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng-wordmark.svg
+.. |SearXNG logo| image:: https://raw.githubusercontent.com/ChathurangaCPM/search-engine/master/client/simple/src/brand/searxng-wordmark.svg
    :target: https://docs.searxng.org/
    :width: 5%
 
@@ -45,19 +45,19 @@ A user_, admin_ and developer_ handbook is available on the homepage_.
    :target: https://docs.searxng.org/
 
 .. |SearXNG wiki| image:: https://img.shields.io/badge/-wiki-blue
-   :target: https://github.com/searxng/searxng/wiki
+   :target: https://github.com/ChathurangaCPM/search-engine/wiki
 
 .. |AGPL License|  image:: https://img.shields.io/badge/license-AGPL-blue.svg
-   :target: https://github.com/searxng/searxng/blob/master/LICENSE
+   :target: https://github.com/ChathurangaCPM/search-engine/blob/master/LICENSE
 
-.. |Issues| image:: https://img.shields.io/github/issues/searxng/searxng?color=yellow&label=issues
-   :target: https://github.com/searxng/searxng/issues
+.. |Issues| image:: https://img.shields.io/github/issues/ChathurangaCPM/search-engine?color=yellow&label=issues
+   :target: https://github.com/ChathurangaCPM/search-engine/issues
 
-.. |PR| image:: https://img.shields.io/github/issues-pr-raw/searxng/searxng?color=yellow&label=PR
-   :target: https://github.com/searxng/searxng/pulls
+.. |PR| image:: https://img.shields.io/github/issues-pr-raw/ChathurangaCPM/search-engine?color=yellow&label=PR
+   :target: https://github.com/ChathurangaCPM/search-engine/pulls
 
-.. |commits| image:: https://img.shields.io/github/commit-activity/y/searxng/searxng?color=yellow&label=commits
-   :target: https://github.com/searxng/searxng/commits/master
+.. |commits| image:: https://img.shields.io/github/commit-activity/y/ChathurangaCPM/search-engine?color=yellow&label=commits
+   :target: https://github.com/ChathurangaCPM/search-engine/commits/master
 
 .. |weblate| image:: https://translate.codeberg.org/widgets/searxng/-/searxng/svg-badge.svg
    :target: https://translate.codeberg.org/projects/searxng/
@@ -88,12 +88,12 @@ Setup
 .. _Administrator documentation: https://docs.searxng.org/admin/index.html
 .. _Step by step: https://docs.searxng.org/admin/installation-searxng.html
 .. _installation scripts: https://docs.searxng.org/admin/installation-scripts.html
-.. _Docker image: https://github.com/searxng/searxng-docker
+.. _Docker image: https://github.com/ChathurangaCPM/search-engine-docker
 
 Translations
 ============
 
-.. _Weblate: https://translate.codeberg.org/projects/searxng/searxng/
+.. _Weblate: https://translate.codeberg.org/projects/ChathurangaCPM/search-engine/
 
 Help translate SearXNG at `Weblate`_
 

@@ -99,7 +99,7 @@ operators: dict[type, typing.Callable] = {
 # with multiprocessing.get_context("fork") we are ready for Py3.14 (by emulating
 # the old behavior "fork") but it will not solve the core problem of fork, nor
 # will it remove the deprecation warnings in py3.12 & py3.13.  Issue is
-# ddiscussed here: https://github.com/searxng/searxng/issues/4159
+# ddiscussed here: https://github.com/ChathurangaCPM/search-engine/issues/4159
 mp_fork = multiprocessing.get_context("fork")
 
 

@@ -198,7 +198,7 @@ def fetch_traits(engine_traits: EngineTraits):
     """Fetch languages and regions from Bing-Web."""
     # pylint: disable=import-outside-toplevel
 
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/ChathurangaCPM/search-engine/issues/762
     from searx.utils import gen_useragent
 
     headers = {

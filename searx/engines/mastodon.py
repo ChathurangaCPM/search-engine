@@ -32,7 +32,7 @@ categories = ['social media']
 base_url = "https://mastodon.social"
 mastodon_type = "accounts"
 
-# https://github.com/searxng/searxng/pull/2857#issuecomment-1741713999
+# https://github.com/ChathurangaCPM/search-engine/pull/2857#issuecomment-1741713999
 page_size = 40
 
 

@@ -253,7 +253,7 @@ def response(resp):
             {
                 'url': url,
                 # title sometimes contains HTML tags / see
-                # https://github.com/searxng/searxng/issues/3790
+                # https://github.com/ChathurangaCPM/search-engine/issues/3790
                 'title': " ".join(html_to_text(title).strip().split()),
                 'content': " ".join(html_to_text(content).strip().split()),
             }

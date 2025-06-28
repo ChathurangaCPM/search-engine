@@ -52,7 +52,7 @@ def request(query, params):
         eng_lang: str = traits.get_language(sxng_lang, 'English')  # type: ignore
         query += ' (' + eng_lang + ')'
         # wiki.archlinux.org is protected by anubis
-        # - https://github.com/searxng/searxng/issues/4646#issuecomment-2817848019
+        # - https://github.com/ChathurangaCPM/search-engine/issues/4646#issuecomment-2817848019
         params['headers']['User-Agent'] = "SearXNG"
     elif netloc == 'wiki.archlinuxcn.org':
         base_url = 'https://' + netloc + '/wzh/index.php?'
@@ -116,7 +116,7 @@ def fetch_traits(engine_traits: EngineTraits):
 
     """
     # pylint: disable=import-outside-toplevel
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/ChathurangaCPM/search-engine/issues/762
 
     engine_traits.custom['wiki_netloc'] = {}
     engine_traits.custom['title'] = {}

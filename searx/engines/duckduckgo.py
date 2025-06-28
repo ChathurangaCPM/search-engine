@@ -25,7 +25,7 @@ from searx.utils import (
     extr,
     extract_text,
 )
-from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+from searx.network import get  # see https://github.com/ChathurangaCPM/search-engine/issues/762
 from searx.enginelib.traits import EngineTraits
 from searx.enginelib import EngineCache
 from searx.exceptions import SearxEngineCaptchaException

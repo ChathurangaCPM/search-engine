@@ -99,7 +99,7 @@ def _parse_text_and_convert(from_query, to_query) -> str | None:
 
     # Symbols are not unique, if there are several hits for the from-unit, then
     # the correct one must be determined by comparing it with the to-unit
-    # https://github.com/searxng/searxng/pull/3378#issuecomment-2080974863
+    # https://github.com/ChathurangaCPM/search-engine/pull/3378#issuecomment-2080974863
 
     # first: collecting possible units
 

@@ -38,7 +38,7 @@ from ._helpers import logger
 logger = logger.getChild('ip_limit')
 
 SEARXNG_ORG = [
-    # https://github.com/searxng/searxng/pull/2484#issuecomment-1576639195
+    # https://github.com/ChathurangaCPM/search-engine/pull/2484#issuecomment-1576639195
     '167.235.158.251',  # IPv4 check.searx.space
     '2a01:04f8:1c1c:8fc2::/64',  # IPv6 check.searx.space
 ]

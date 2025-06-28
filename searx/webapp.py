@@ -1355,8 +1355,8 @@ def is_werkzeug_reload_active() -> bool:
         # server was launched by uWSGI
         return False
 
-    # https://github.com/searxng/searxng/pull/1656#issuecomment-1214198941
-    # https://github.com/searxng/searxng/pull/1616#issuecomment-1206137468
+    # https://github.com/ChathurangaCPM/search-engine/pull/1656#issuecomment-1214198941
+    # https://github.com/ChathurangaCPM/search-engine/pull/1616#issuecomment-1206137468
 
     frames = inspect.stack()
 

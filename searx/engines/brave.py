@@ -202,7 +202,7 @@ time_range_map = {
 
 def request(query, params):
 
-    # Don't accept br encoding / see https://github.com/searxng/searxng/pull/1787
+    # Don't accept br encoding / see https://github.com/ChathurangaCPM/search-engine/pull/1787
     params['headers']['Accept-Encoding'] = 'gzip, deflate'
 
     args = {
@@ -436,7 +436,7 @@ def fetch_traits(engine_traits: EngineTraits):
 
     import babel.languages
     from searx.locales import region_tag, language_tag
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/ChathurangaCPM/search-engine/issues/762
 
     engine_traits.custom["ui_lang"] = {}
 

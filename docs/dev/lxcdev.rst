@@ -92,7 +92,7 @@ fork:
      .. code:: bash
 
         $ cd ~/Downloads
-        $ git clone https://github.com/searxng/searxng.git searxng
+        $ git clone https://github.com/ChathurangaCPM/search-engine.git searxng
         $ cd searxng
 
 .. sidebar:: The ``searxng-archlinux`` container
@@ -237,8 +237,8 @@ suite.  For this, we have to keep an eye on the :ref:`installation basic`:
 
 - SearXNG setup in: ``/etc/searxng/settings.yml``
 - SearXNG user's home: ``/usr/local/searxng``
-- virtualenv in: ``/usr/local/searxng/searxng-pyenv``
-- SearXNG software in: ``/usr/local/searxng/searxng-src``
+- virtualenv in: ``/usr/local/ChathurangaCPM/search-engine-pyenv``
+- SearXNG software in: ``/usr/local/ChathurangaCPM/search-engine-src``
 
 With the use of the :ref:`searxng.sh` the SearXNG service was installed as
 :ref:`uWSGI application <searxng uwsgi>`.  To maintain this service, we can use
@@ -263,9 +263,9 @@ least you should attend the settings of ``uid``, ``chdir``, ``env`` and
   env = SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
   http = 127.0.0.1:8888
 
-  chdir = /usr/local/searxng/searxng-src/searx
-  virtualenv = /usr/local/searxng/searxng-pyenv
-  pythonpath = /usr/local/searxng/searxng-src
+  chdir = /usr/local/ChathurangaCPM/search-engine-src/searx
+  virtualenv = /usr/local/ChathurangaCPM/search-engine-pyenv
+  pythonpath = /usr/local/ChathurangaCPM/search-engine-src
 
 If you have read the :ref:`Good to know` you remember, that each container
 shares the root folder of the repository and the command ``utils/lxc.sh cmd``
@@ -282,18 +282,18 @@ with the working tree from outside of the container:
 
      .. code:: bash
 
-        $ mv /usr/local/searxng/searxng-src  /usr/local/searxng/searxng-src.old
-        $ ln -s /share/SearXNG/ /usr/local/searxng/searxng-src
+        $ mv /usr/local/ChathurangaCPM/search-engine-src  /usr/local/ChathurangaCPM/search-engine-src.old
+        $ ln -s /share/SearXNG/ /usr/local/ChathurangaCPM/search-engine-src
 
   .. group-tab:: desktop (HOST)
 
      .. code:: bash
 
         $ sudo -H ./utils/lxc.sh cmd searxng-archlinux \
-          mv /usr/local/searxng/searxng-src /usr/local/searxng/searxng-src.old
+          mv /usr/local/ChathurangaCPM/search-engine-src /usr/local/ChathurangaCPM/search-engine-src.old
 
         $ sudo -H ./utils/lxc.sh cmd searxng-archlinux \
-          ln -s /share/SearXNG/ /usr/local/searxng/searxng-src
+          ln -s /share/SearXNG/ /usr/local/ChathurangaCPM/search-engine-src
 
 Now we can develop as usual in the working tree of our desktop system.  Every
 time the software was changed, you have to restart the SearXNG service (in the
@@ -400,10 +400,10 @@ To wrap the suite into a developer one answer ``YES`` (or press Enter).
    link SearXNG's sources to: /share/SearXNG
    =========================================
 
-   mv -f "/usr/local/searxng/searxng-src" "/usr/local/searxng/searxng-src.backup"
-   ln -s "/share/SearXNG" "/usr/local/searxng/searxng-src"
-   ls -ld /usr/local/searxng/searxng-src
-     |searxng| lrwxrwxrwx 1 searxng searxng ... /usr/local/searxng/searxng-src -> /share/SearXNG
+   mv -f "/usr/local/ChathurangaCPM/search-engine-src" "/usr/local/ChathurangaCPM/search-engine-src.backup"
+   ln -s "/share/SearXNG" "/usr/local/ChathurangaCPM/search-engine-src"
+   ls -ld /usr/local/ChathurangaCPM/search-engine-src
+     |searxng| lrwxrwxrwx 1 searxng searxng ... /usr/local/ChathurangaCPM/search-engine-src -> /share/SearXNG
 
 On code modification the instance has to be restarted (see :ref:`uWSGI
 maintenance`):
@@ -429,8 +429,8 @@ use:
    [searxng-archlinux]  INFO:  (eth0) IPv6:       http://[fd42:555b:2af9:e121:216:3eff:fe5b:1744]
    [searxng-archlinux]  uWSGI:
    [searxng-archlinux]    SEARXNG_UWSGI_SOCKET : /usr/local/searxng/run/socket
-   [searxng-archlinux]  environment /usr/local/searxng/searxng-src/utils/brand.env:
-   [searxng-archlinux]    GIT_URL              : https://github.com/searxng/searxng
+   [searxng-archlinux]  environment /usr/local/ChathurangaCPM/search-engine-src/utils/brand.env:
+   [searxng-archlinux]    GIT_URL              : https://github.com/ChathurangaCPM/search-engine
    [searxng-archlinux]    GIT_BRANCH           : master
    [searxng-archlinux]    SEARXNG_URL          : http:///n.n.n.140/searxng
    [searxng-archlinux]    SEARXNG_PORT         : 8888

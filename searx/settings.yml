@@ -18,11 +18,11 @@ general:
   open_metrics: ''
 
 brand:
-  new_issue_url: https://github.com/searxng/searxng/issues/new
+  new_issue_url: https://github.com/ChathurangaCPM/search-engine/issues/new
   docs_url: https://docs.searxng.org/
   public_instances: https://searx.space
-  wiki_url: https://github.com/searxng/searxng/wiki
-  issue_url: https://github.com/searxng/searxng/issues
+  wiki_url: https://github.com/ChathurangaCPM/search-engine/wiki
+  issue_url: https://github.com/ChathurangaCPM/search-engine/issues
   # custom:
   #   maintainer: "Jon Doe"
   #   # Custom entries in the footer: [title]: [link]
@@ -610,7 +610,7 @@ engines:
 
   # WARNING: links from chinaso.com voilate users privacy
   # Before activate these engines its mandatory to read
-  # - https://github.com/searxng/searxng/issues/4694
+  # - https://github.com/ChathurangaCPM/search-engine/issues/4694
   # - https://docs.searxng.org/dev/engines/online/chinaso.html
 
   - name: chinaso news
@@ -1156,7 +1156,7 @@ engines:
   # - name: invidious
   #   engine: invidious
   #   # if you want to use invidious with SearXNG you should setup one locally
-  #   # https://github.com/searxng/searxng/issues/2722#issuecomment-2884993248
+  #   # https://github.com/ChathurangaCPM/search-engine/issues/2722#issuecomment-2884993248
   #   base_url:
   #     - https://invidious.example1.com
   #     - https://invidious.example2.com
@@ -1597,7 +1597,7 @@ engines:
       # Proxies from public instances.  Ask the public instances owners if they
       # agree to receive traffic from SearXNG!
       #    --> https://codeberg.org/VnPower/PixivFE#instances
-      #    --> https://github.com/searxng/searxng/pull/3192#issuecomment-1941095047
+      #    --> https://github.com/ChathurangaCPM/search-engine/pull/3192#issuecomment-1941095047
       # image proxy of https://pixiv.cat
       # - https://i.pixiv.cat
       # image proxy of https://www.pixiv.pics
@@ -2441,7 +2441,7 @@ engines:
     search_type: text
     base_url:
       - https://yacy.searchlab.eu
-      # see https://github.com/searxng/searxng/pull/3631#issuecomment-2240903027
+      # see https://github.com/ChathurangaCPM/search-engine/pull/3631#issuecomment-2240903027
       # - https://search.kyun.li
       # - https://yacy.securecomcorp.eu
       # - https://yacy.myserv.ca

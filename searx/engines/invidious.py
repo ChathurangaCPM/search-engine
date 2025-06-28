@@ -4,7 +4,7 @@
 If you want to use invidious with SearXNG you should setup one locally.
 No public instance offer a public API now
 
-- https://github.com/searxng/searxng/issues/2722#issuecomment-2884993248
+- https://github.com/ChathurangaCPM/search-engine/issues/2722#issuecomment-2884993248
 
 """
 from __future__ import annotations

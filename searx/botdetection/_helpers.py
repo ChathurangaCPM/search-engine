@@ -88,7 +88,7 @@ def get_real_ip(request: SXNG_Request) -> str:
     The remote IP of the request is taken from (first match):
 
     - X-Forwarded-For_ header
-    - `X-real-IP header <https://github.com/searxng/searxng/issues/1237#issuecomment-1147564516>`__
+    - `X-real-IP header <https://github.com/ChathurangaCPM/search-engine/issues/1237#issuecomment-1147564516>`__
     - :py:obj:`flask.Request.remote_addr`
 
     .. _ProxyFix:

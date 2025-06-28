@@ -454,7 +454,7 @@ searxng.install.clone() {
     # export SERVICE_HOME
 
     # clone repo and add a safe.directory entry to git's system config / see
-    # https://github.com/searxng/searxng/issues/1251
+    # https://github.com/ChathurangaCPM/search-engine/issues/1251
     git config --system --add safe.directory "${REPO_ROOT}/.git"
     git_clone "$REPO_ROOT" "${SEARXNG_SRC}" \
               "$GIT_BRANCH" "${SERVICE_USER}"
@@ -477,7 +477,7 @@ searxng.install.link_src() {
     tee_stderr 0.1 <<EOF | sudo -H -u "${SERVICE_USER}" -i 2>&1 | prefix_stdout "$_service_prefix"
 mv -f "${SEARXNG_SRC}" "${SEARXNG_SRC}.backup"
 ln -s "${2}" "${SEARXNG_SRC}"
-ls -ld /usr/local/searxng/searxng-src
+ls -ld /usr/local/ChathurangaCPM/search-engine-src
 EOF
     echo
     uWSGI_restart "$SEARXNG_UWSGI_APP"

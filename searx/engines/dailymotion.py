@@ -17,7 +17,7 @@ from urllib.parse import urlencode
 import time
 import babel
 
-from searx.network import get, raise_for_httperror  # see https://github.com/searxng/searxng/issues/762
+from searx.network import get, raise_for_httperror  # see https://github.com/ChathurangaCPM/search-engine/issues/762
 from searx.utils import html_to_text
 from searx.exceptions import SearxEngineAPIException
 from searx.locales import region_tag, language_tag
@@ -213,7 +213,7 @@ def fetch_traits(engine_traits: EngineTraits):
     contains over 7000 *languages* codes (see PR1071_).  We use only those
     language codes that are used in the locales.
 
-    .. _PR1071: https://github.com/searxng/searxng/pull/1071
+    .. _PR1071: https://github.com/ChathurangaCPM/search-engine/pull/1071
 
     """
 

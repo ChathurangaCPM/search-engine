@@ -70,7 +70,7 @@ const simple_icons = [
   },
   // some of the ionicons are not suitable for a dark theme, we fixed the svg
   // manually in src/svg/ionicons
-  // - https://github.com/searxng/searxng/pull/4284#issuecomment-2680550342
+  // - https://github.com/ChathurangaCPM/search-engine/pull/4284#issuecomment-2680550342
   {
     base: resolve(HERE, "src/svg/ionicons"),
     set: {

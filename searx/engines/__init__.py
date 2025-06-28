@@ -69,7 +69,7 @@ def check_engine_module(module: types.ModuleType):
     # probe unintentional name collisions / for example name collisions caused
     # by import statements in the engine module ..
 
-    # network: https://github.com/searxng/searxng/issues/762#issuecomment-1605323861
+    # network: https://github.com/ChathurangaCPM/search-engine/issues/762#issuecomment-1605323861
     obj = getattr(module, 'network', None)
     if obj and inspect.ismodule(obj):
         msg = f'type of {module.__name__}.network is a module ({obj.__name__}), expected a string'

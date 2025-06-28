@@ -182,7 +182,7 @@ def fetch_traits(engine_traits: EngineTraits) -> None:
     import babel
     import httpx
 
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/ChathurangaCPM/search-engine/issues/762
     from searx.locales import language_tag
 
     def _use_old_values():

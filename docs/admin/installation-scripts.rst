@@ -22,7 +22,7 @@ alternatively you can create your own fork and clone from there.
 .. code:: bash
 
    $ cd ~/Downloads
-   $ git clone https://github.com/searxng/searxng.git searxng
+   $ git clone https://github.com/ChathurangaCPM/search-engine.git searxng
    $ cd searxng
 
 .. sidebar:: further read

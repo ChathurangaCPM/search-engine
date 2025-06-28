@@ -12,7 +12,7 @@
    not active in a standard setup (``inactive: true``).
 
 .. _ChinaSo: https://www.chinaso.com/
-.. _issue #4694: https://github.com/searxng/searxng/issues/4694
+.. _issue #4694: https://github.com/ChathurangaCPM/search-engine/issues/4694
 
 Configuration
 =============

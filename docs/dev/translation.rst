@@ -6,9 +6,9 @@ Translation
 
 .. _translate.codeberg.org: https://translate.codeberg.org/projects/searxng/
 .. _Weblate: https://docs.weblate.org
-.. _translations branch: https://github.com/searxng/searxng/tree/translations
+.. _translations branch: https://github.com/ChathurangaCPM/search-engine/tree/translations
 .. _orphan branch: https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt---orphanltnewbranchgt
-.. _Weblate repository: https://translate.codeberg.org/projects/searxng/searxng/#repository
+.. _Weblate repository: https://translate.codeberg.org/projects/ChathurangaCPM/search-engine/#repository
 .. _wlc: https://docs.weblate.org/en/latest/wlc.html
 
 .. |translated| image:: https://translate.codeberg.org/widgets/searxng/-/searxng/svg-badge.svg
@@ -28,7 +28,7 @@ Translation takes place on translate.codeberg.org_.
 
 Translations which has been added by translators on the translate.codeberg.org_ UI are
 committed to Weblate's counterpart of the SearXNG *origin* repository which is
-located at ``https://translate.codeberg.org/git/searxng/searxng``.
+located at ``https://translate.codeberg.org/git/ChathurangaCPM/search-engine``.
 
 There is no need to clone this repository, :ref:`SearXNG Weblate workflow` take
 care of the synchronization with the *origin*.  To avoid merging commits from

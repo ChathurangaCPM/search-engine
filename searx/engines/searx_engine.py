@@ -8,7 +8,7 @@ from searx.engines import categories as searx_categories
 
 # about
 about = {
-    "website": 'https://github.com/searxng/searxng',
+    "website": 'https://github.com/ChathurangaCPM/search-engine',
     "wikidata_id": 'Q17639196',
     "official_api_documentation": 'https://docs.searxng.org/dev/search_api.html',
     "use_official_api": True,
